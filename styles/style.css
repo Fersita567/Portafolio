@@ -1,7 +1,7 @@
-/* ===== Variables y Estilos Globales ===== */
+
 :root {
-    --primary-color: #2c3e50; /* Azul oscuro */
-    --secondary-color: #3498db; /* Azul claro */
+    --primary-color: #2c3e50; 
+    --secondary-color: #3498db; 
     --background-color: #f4f4f4;
     --text-color: #333;
     --light-color: #fff;
@@ -40,7 +40,7 @@ section {
     padding: 5rem 0;
 }
 
-/* ===== Encabezado ===== */
+
 header {
     background-color: var(--light-color);
     padding: 1rem 0;
@@ -84,7 +84,6 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
-/* ===== Sección Hero ===== */
 .hero {
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -120,7 +119,7 @@ nav a:hover {
     background-color: #2980b9;
 }
 
-/* ===== Sección Acerca de mí ===== */
+
 .about-content {
     display: flex;
     align-items: center;
@@ -144,7 +143,7 @@ nav a:hover {
     font-size: 0.9rem;
 }
 
-/* ===== Sección Proyectos ===== */
+
 #proyectos {
     background-color: var(--light-color);
 }
@@ -199,12 +198,12 @@ nav a:hover {
 }
 
 
-/* ===== Sección Contacto ===== */
+
 #contacto {
     text-align: center;
 }
 
-/* ===== Pie de Página ===== */
+
 footer {
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -213,7 +212,6 @@ footer {
 }
 
 
-/* ===== Diseño Responsivo (Media Queries) ===== */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
